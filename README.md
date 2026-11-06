@@ -1,1 +1,76 @@
-# exposicion.historia.guithub.io
+[trabajadoras-siglo-xix.html](https://github.com/user-attachments/files/34453921/trabajadoras-siglo-xix.html)
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Las trabajadoras en la industrialización europea del siglo XIX</title>
+<style>
+:root{--bg:#f6f1ea;--ink:#1f1a2e;--card:#ffffff;--mut:#5d5670;--acc:#a63a2b;--gold:#c98f12;--teal:#1f6f78;--line:#e3dccf;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1a2e;--ink:#f6f1ea;--card:#2c2640;--mut:#b9b2cc;--acc:#e0705f;--gold:#e8b84a;--teal:#4fb3bd;--line:#3a3354}}
+:root[data-theme="dark"]{--bg:#1f1a2e;--ink:#f6f1ea;--card:#2c2640;--mut:#b9b2cc;--acc:#e0705f;--gold:#e8b84a;--teal:#4fb3bd;--line:#3a3354}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}
+section{max-width:980px;margin:0 auto;padding:72px 22px}
+h1{font-size:clamp(34px,7vw,64px);line-height:1.08;margin:0 0 18px}h2{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 28px}
+h3{margin:10px 0 6px;font-size:21px}p{margin:0 0 12px}.mut{color:var(--mut)}.tag{color:var(--gold);letter-spacing:.08em;text-transform:uppercase;font-size:14px;font-weight:700}
+.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;gap:10px;position:relative;overflow:hidden}
+.gears{position:relative;width:240px;height:190px;margin:26px 0 0}
+.g{position:absolute;border-radius:50%;border:16px dotted var(--gold);animation:spin 12s linear infinite}.g:after{content:"";position:absolute;inset:14px;border-radius:50%;border:5px solid var(--gold)}
+.g1{left:0;top:0;width:130px;height:130px}.g2{left:100px;top:84px;width:100px;height:100px;border-color:var(--acc);animation-direction:reverse}.g2:after{border-color:var(--acc);inset:10px}.g3{left:150px;top:0;width:70px;height:70px;border-color:var(--teal);animation-duration:6s;border-width:11px}.g3:after{border-color:var(--teal);inset:8px;border-width:4px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hint{position:absolute;bottom:22px;left:22px;animation:bob 1.8s ease-in-out infinite;color:var(--mut)}@keyframes bob{50%{transform:translateY(8px)}}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;border-top:6px solid var(--gold);transition:transform .25s}.card:hover{transform:translateY(-6px) rotate(-.6deg)}
+.card:nth-child(2){border-top-color:var(--acc)}.card:nth-child(3){border-top-color:var(--teal)}
+.card h3{color:var(--acc)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .7s,transform .7s}.rv.on{opacity:1;transform:none}.rv:nth-child(2){transition-delay:.15s}.rv:nth-child(3){transition-delay:.3s}
+.bal{position:relative;width:min(340px,100%);height:260px;margin:30px auto 0}
+.bal .post{position:absolute;left:50%;top:60px;width:12px;height:190px;margin-left:-6px;background:var(--ink);border-radius:6px}
+.beam{position:absolute;left:0;right:0;top:56px;height:14px;background:var(--ink);border-radius:7px;animation:tilt 5s ease-in-out infinite}
+.pan{position:absolute;top:150px;width:42%;padding:12px 0;text-align:center;font-weight:700;color:#fff;border-radius:10px}.pan.h{left:0;background:#a63a2b;animation:up 5s ease-in-out infinite}.pan.t{right:0;background:#1f6f78;animation:down 5s ease-in-out infinite}
+@keyframes tilt{0%,100%{transform:rotate(8deg)}50%{transform:rotate(-8deg)}}@keyframes up{0%,100%{transform:translateY(-34px)}50%{transform:translateY(34px)}}@keyframes down{0%,100%{transform:translateY(34px)}50%{transform:translateY(-34px)}}
+.big{font-size:clamp(70px,16vw,130px);font-weight:700;color:var(--acc);line-height:1}
+.loom{position:relative;height:110px;margin:26px 0;overflow:hidden}.th{position:absolute;top:0;bottom:0;width:8px;background:var(--line);animation:fl 3s ease-in-out infinite}
+.sh{position:absolute;top:44px;left:0;width:110px;height:24px;border-radius:12px;background:var(--acc);animation:shut 4s ease-in-out infinite}@keyframes shut{50%{transform:translateX(calc(min(940px,100vw - 44px) - 110px))}}@keyframes fl{50%{opacity:.3}}
+.tl{border-left:4px solid var(--gold);margin-left:8px;padding-left:22px}.tl div{margin-bottom:22px;position:relative}.tl div:before{content:"";position:absolute;left:-32px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--acc)}
+.tl b{color:var(--acc)}
+.end{text-align:center;position:relative;overflow:hidden;background:var(--acc);max-width:none;color:#fff}.end>div{max-width:760px;margin:0 auto;position:relative;z-index:1}.end li{margin-bottom:10px}.end ul{text-align:left;padding-left:20px}
+.ring{position:absolute;left:50%;top:50%;width:420px;height:420px;margin:-210px;border:6px solid #fff;border-radius:50%;opacity:0;animation:p 5s ease-out infinite}@keyframes p{0%{transform:scale(.1);opacity:.7}100%{transform:scale(2.2);opacity:0}}
+footer{text-align:center;padding:26px;color:var(--mut);font-size:14px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style></head><body>
+<section class="hero"><span class="tag">Historia social · Género · Siglo XIX</span>
+<h1>Las trabajadoras en la industrialización europea</h1>
+<p class="mut" style="font-size:20px;max-width:640px">Construcciones discursivas del movimiento obrero en torno al sujeto «mujeres». Lectura de Maria Medina-Vicent, Fòrum de Recerca n.º 19 (2014).</p>
+<div class="gears"><div class="g g1"></div><div class="g g2"></div><div class="g g3"></div></div><span class="hint">Desliza ↓</span></section>
+
+<section><span class="tag">Contexto</span><h2 class="rv">Hacia una sociedad industrial</h2>
+<div class="grid"><div class="card rv"><h3>Inglaterra, pionera</h3><p>En el siglo XVIII abre el paso de un mundo preindustrial a otro donde la industria es el motor económico.</p></div>
+<div class="card rv"><h3>Sistema fabril</h3><p>Máquina de vapor, mayor división del trabajo y ciudades que crecen sin planificación.</p></div>
+<div class="card rv"><h3>Nuevas clases</h3><p>La clase obrera construye su identidad desde la explotación; la burguesía es un grupo heterogéneo.</p></div></div>
+<p class="rv" style="margin-top:22px">Las mujeres vivieron el cambio con una doble condición: clase obrera y género femenino.</p></section>
+
+<section><span class="tag">Marco</span><h2 class="rv">El género como construcción discursiva</h2>
+<p class="rv">Género: la forma de referirse a la organización social de las relaciones entre sexos (Scott). Al hombre se asociaron razón, autonomía y fuerza; a la mujer, emoción, pasividad y hogar. La Modernidad prometió igualdad, pero el «contrato sexual» (Pateman) relegó a las mujeres al espacio privado.</p>
+<div class="bal rv"><div class="post"></div><div class="beam"></div><div class="pan h">Hogar</div><div class="pan t">Trabajo</div></div></section>
+
+<section><span class="tag">Discursos</span><h2 class="rv">Cómo se legitimó la desigualdad</h2>
+<div class="grid"><div class="card rv"><h3>Salario familiar</h3><p>Se creía que el sueldo del hombre debía sostener a la familia, así que el de las mujeres podía ser ínfimo.</p></div>
+<div class="card rv"><h3>Vulnerabilidad</h3><p>Se las consideró físicamente débiles y moralmente expuestas: jornadas reducidas y sin turno nocturno.</p></div>
+<div class="card rv"><h3>Trabajos «femeninos»</h3><p>Lo que producían se tenía por inferior; un hombre en esos puestos caía en vergüenza.</p></div></div>
+<p class="rv mut" style="margin-top:22px">No existe una división sexual natural del trabajo: es producto de prácticas que la naturalizan.</p></section>
+
+<section><span class="tag">En la fábrica</span><h2 class="rv">Las trabajadoras del siglo XIX</h2>
+<div class="rv" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap"><div class="big"><span id="n">0</span> %</div><p style="flex:1;min-width:220px">de los puestos de la industria algodonera eran de mujeres (Palmade, 1978).</p></div>
+<div class="loom"><i class="th" style="left:6%"></i><i class="th" style="left:30%;animation-delay:.5s"></i><i class="th" style="left:54%;animation-delay:1s"></i><i class="th" style="left:78%;animation-delay:1.5s"></i><div class="sh"></div></div>
+<p class="rv">En la protoindustria su salario era esencial para mantener unida a la familia. En la fábrica se les pagaba por pieza, con sueldos mínimos y perfil joven y soltero; los empresarios preferían a mujeres y niños para ahorrar costes. Después crecieron los empleos «de cuello blanco»: fue la oficina, más que la fábrica, la que absorbió al ama de casa (Perrot).</p></section>
+
+<section><span class="tag">Sindicatos</span><h2 class="rv">El movimiento obrero y las mujeres</h2>
+<div class="tl rv"><div><b>Gotha, 1875</b><br>Se propuso prohibir el trabajo femenino para preservar su moralidad.</div><div><b>Broadhurst, 1877</b><br>En el congreso británico dijo que su lugar era el hogar.</div><div><b>Marsella, 1879</b><br>Participación solo consultiva; compañeras, no trabajadoras.</div><div><b>Cabet y Proudhon</b><br>La mujer como mitad imperfecta, o débil por biología.</div><div><b>Iglesia y nación</b><br>Las veían como aliadas de la Iglesia y como madres de la patria.</div></div>
+<p class="rv">Se les pedía postergar sus reclamos: la lucha de clase iba primero.</p></section>
+
+<section class="end"><div><h2>Conclusiones</h2><ul><li>Las trabajadoras existían antes de la industrialización; con ella se vuelven un «problema».</li><li>Se institucionalizó el discurso de que eran más baratas y menos productivas.</li><li>Aun así salieron del hogar y desarrollaron conciencia de clase y de género.</li><li>Las identidades de género son construcciones sociales: pueden reconstruirse.</li></ul></div><i class="ring"></i><i class="ring" style="animation-delay:1.7s"></i><i class="ring" style="animation-delay:3.4s"></i></section>
+<footer>Basado en Medina-Vicent, M. (2014). Fòrum de Recerca, 19, 149-163.</footer>
+<script>
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');if(e.target.contains(document.getElementById('n'))&&!window.d){window.d=1;var n=document.getElementById('n'),v=0,t=setInterval(function(){v+=2;n.textContent=v;if(v>=50)clearInterval(t)},35)}}})},{threshold:.2});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+</script></body></html>
